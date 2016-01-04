@@ -15,6 +15,6 @@ For comparison, check out the [Angular 2 version](https://github.com/coryhouse/a
 
 #How does this differ from the Angular 2 version?
 1. I used ES6 with Babel instead of TypeScript since that's included in the starter kit I selected. TypeScript isn't very popular in the React community anyway.
-2. I used Sass instead of embedding the styles in the component. Of course, I could have embedded the styles in the component via JSON if desired.  
+2. I used Sass instead of embedding the styles in the component. Of course, I could have [embedded the styles in the component via JSON](https://facebook.github.io/react/tips/inline-styles.html) if desired.  
 3. The dev experience supports hot reloading via Redux and react-transform-hmr. Note that you can save changes to files and they're reflected immediately in the browser **without requiring a refresh so you don't lose your client-side state**. Nice.  I'm not aware of an equivalent experience for Angular 2 yet. If you are, please let me know.
 4. It's much smaller. The built version is 216k compared to Angular 2's 764k.
